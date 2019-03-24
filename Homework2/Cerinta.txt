@@ -1,0 +1,7 @@
+https://www.figma.com/file/YkmnOsGqzDafeXvc1gwtfEHV/Untitled?node-id=0%3A1
+
+Trebuie sa implementati urmatorul design in HTML si CSS.
+
+Pentru cei care nu pot sa vada ce e in link poza atasata.
+
+EDIT: puteti sa folositi orice
