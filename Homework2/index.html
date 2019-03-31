@@ -6,8 +6,58 @@
     <title>Homework2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../Homework2/css/main.css" />
+    <script src="./script/main.js"></script>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <!-- LOGO RANDOM !  -->
+            <img src="./images/logo.png" alt="" id="logo" class="headerContent">
+            <a href="#" id="navButton" class="headerContent">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="left-menu">
+            <div class="selectedItems"><p>Selected Items</p></div>
+            <div class="items" id="item1" onclick="selectItem(id)"><p>Item 1</p></div>
+            <div class="items" id="item2" onclick="selectItem(id)"><p>Item 2</p></div>
+            <div class="items" id="item3" onclick="selectItem(id)"><p>Item 3</p></div>
+            <div class="items" id="item4" onclick="selectItem(id)"><p>Item 4</p></div>
+            <div class="items" id="item5" onclick="selectItem(id)"><p>Item 5</p></div>
+            <div class="items" id="item6" onclick="selectItem(id)"><p>Item 6</p></div>
+        </div>
+        <div class="content">
+            <section class="first-section">
+                <h1>Section title</h1>
+                <div class="box-content">
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                </div>
+                
+            </section>
+            <section class="second-section">
+                <h1>Section two title</h1>
+                <div class="box-content">
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                </div>
+
+            </section>
+        </div>
+    </div>
 </body>
 </html>
